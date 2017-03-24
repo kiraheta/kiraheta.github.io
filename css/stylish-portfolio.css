@@ -172,16 +172,6 @@ hr.small {
     padding: 50px 0;
 }
 
-/* Services */
-
-.services {
-    padding: 50px 0;
-}
-
-.service-item {
-    margin-bottom: 30px;
-}
-
 /* Portfolio */
 
 .portfolio {
@@ -198,16 +188,6 @@ hr.small {
 
 .img-portfolio:hover {
     opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
 }
 
 /* Footer */
