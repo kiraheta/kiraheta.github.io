@@ -81,7 +81,18 @@ hr.small {
     transition: all 0.4s ease 0s;
 }
 
-.sidebar-nav {
+.navbar-custom {
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+.page-scroll {
+    color: red;
+}
+
+/*.sidebar-nav {
     position: absolute;
     top: 0;
     width: 250px;
@@ -125,7 +136,7 @@ hr.small {
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
     background: none;
-}
+}*/
 
 #menu-toggle {
     z-index: 1;
@@ -170,6 +181,7 @@ hr.small {
 
 .about-info {
     padding: 50px 0;
+    font-size: 25px;
 }
 
 /* Portfolio */
