@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <style>
@@ -21,6 +22,13 @@
         /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     }
     </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -43,13 +51,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="views/about.html">About</a>
+                        <a href="work.html">Work</a>
                     </li>
                     <li>
-                        <a href="views/work.html">Work</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="views/contact.html">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -58,23 +66,50 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Kenny Iraheta</h1>
-                <p class="lead">Software Engineer</p>
-                <!-- <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.7</li>
-                    <li>jQuery v1.11.1</li>
-                </ul> -->
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                     <h1>Kenny Iraheta</h1>
+                     <p class="lead">Software Engineer</p>
+                    <!-- <hr class="small"> -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <!-- <a href="#"> -->
+                                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/qbotio-logo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/happy-beats-logo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/shareMyWeek-logo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img class="img-portfolio img-responsive" src="img/MR-logo.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
             </div>
         </div>
-        <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
+    </section>
 
     <!-- jQuery Version 1.11.1 -->
     <script src="js/jquery.js"></script>
